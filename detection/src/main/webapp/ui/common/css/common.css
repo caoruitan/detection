@@ -1,0 +1,332 @@
+html,
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font: 14px/1.5 微软雅黑;
+    overflow-x: hidden;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,
+dl,dt,dd,
+ul,ol,li,
+th,td,
+p,
+span,
+blockquote,
+pre,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+hr {
+    padding: 0;
+    margin: 0;
+}
+img,
+select,
+input,
+button {
+    vertical-align: middle;
+}
+a,
+input {
+    outline: none;
+}
+a {
+    text-decoration: none !important;
+    outline-style: none !important;
+    -moz-outline-style: none !important;
+    color: #5C5E5D;
+}
+a:hover{
+	color: #FF6600;
+}
+ul,
+ul li,
+ol {
+    list-style: none;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+textarea {
+    border: 1px solid #CCC;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: none;
+}
+.pull-left {
+    float: left !important;
+}
+.pull-right {
+    float: right !important;
+}
+img{
+	border: 0;
+}
+/**********清除浮动样式******************/
+._clear:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+
+/**
+ *	自定义样式区域 
+ */
+.lm-ml10{
+	margin-left: 10px !important;
+}
+.lm-ml20{
+	margin-left: 20px !important;
+}
+.lm-mt10{
+	margin-top: 10px !important;
+}
+.lm-mt30{
+	margin-top: 30px !important;
+}
+.lm-w100{
+	width: 100px !important;
+}
+.lm-w160{
+	width: 160px !important;
+}
+.lm-btn{
+	border: 0;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	vertical-align: top;
+}
+.lm-btn-100{
+	width: 100px !important;
+}
+.lm-btn-130{
+	width: 130px !important;
+}
+.lm-btn-FF9900{
+	background: #FF9900;
+	color: #FFF;
+}
+.lm-btn-99CC00{
+	background: #99CC00;
+	color: #FFF;
+}
+.lm-main-box{
+	background: #FFF;
+	overflow: hidden;
+	width: 100%;
+}
+.lm-main-p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.lm-main-d{
+	padding-top: 70px;
+}
+.lm-common-title {
+	width: 100%;
+	height: 50px;
+	line-height: 48px;
+	color: #333333;
+	font-size: 20px;
+	position: fixed;
+	padding-left: 50px;
+	padding-top: 4px;
+	background: none;
+	z-index: 1;
+}
+.lm-asyncRequest-box{
+	background: #515151;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.lm-async-item{
+	float: left;
+	width: 230px;
+	height: 30px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #F2F2F2;
+}
+.lm-async-pic{
+	background: #00CCFF url(../../tjfx/images/iconfont-tongji.png) no-repeat center center;
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.lm-async-showbox{
+	line-height: 30px;
+}
+.lm-async-title{
+	float: left;
+	color: #333333;
+	margin-left: 10px;
+}
+.lm-async-load{
+	float: left;
+	margin-left: 10px;
+	display: inline-block;
+	width: 20px;
+	height: 30px;
+	background: url(../../tjfx/images/loading2.gif) no-repeat center center;
+}
+.lm-async-complete{
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	border-radius: 4px;
+	background: #FF3300;
+	color: #FFFFFF;
+	height: 20px;
+	width: 40px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.lm-top-search{
+	/*border: 1px solid #E2E2E2;*/
+	background: #666666;
+	padding: 12px 20px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.lm-qyxlxzk{
+	float: left;
+	margin-top: 2px;
+}
+.lm-singletb-box {
+}
+.lm-search-box{
+	border: 1px solid #E2E2E2;
+	background: #F1F1F1;
+	padding: 12px 20px;
+	overflow: hidden;
+}
+.lm-time-dimension{
+	float: left;
+	width: 60px;
+	height: 30px;
+	background: #999999;
+	color: #FFFFFF;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.lm-time-active{
+	background: #FF9900;
+}
+.lm-sort-box{
+	border: 1px solid #E2E2E2;
+	background: #F1F1F1;
+	padding: 12px 20px;
+	overflow: hidden;
+}
+.lm-sort-rule{
+	float: left;
+	width: 100px;
+	height: 30px;
+	background: #999999;
+	color: #FFFFFF;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.lm-sort-active{
+	background: #FF9900;
+}
+.lm-time-interval{
+	float: left;
+}
+.lm-time-hide{
+	display: none;
+}
+.lm-input{
+	border: 1px solid #E3E3E3 !important;
+	height: 30px !important;
+	padding-left: 4px;
+}
+.lm-time-split{
+	line-height: 30px;
+}
+.lm-table-export{
+	line-height: 30px;
+	cursor: pointer;
+}
+.lm-export-pic{
+	float: left;
+	width: 26px;
+	height: 30px;
+	background: url(../../tjfx/images/iconfont-biaoge.png) no-repeat center center;
+}
+.lm-dischart-box{
+	border: 1px solid #E2E2E2;
+	background-color: #F7F7F7;
+	padding: 10px 50px;
+	position: relative;
+}
+.lm-pageturn-left{
+	position: absolute;
+	height: 200px;
+	width: 50px;
+	top: 50%;
+	margin-top: -100px;
+	left: 0;
+	background: url(../../tjfx/images/iconfont-before.png) no-repeat;
+	background-position: -26px 50%;
+	z-index: 10;
+	cursor: pointer;
+	display: none;
+}
+.lm-pageturn-right{
+	position: absolute;
+	height: 200px;
+	width: 50px;
+	top: 50%;
+	margin-top: -100px;
+	right: 0;
+	background: url(../../tjfx/images/iconfont-later.png) no-repeat;
+	background-position: -26px 50%;
+	z-index: 10;
+	cursor: pointer;
+	display: none;
+}
+/*.lm-tb-change{
+	overflow: hidden;
+}
+.lm-radio-div{
+	line-height: 30px;
+}
+.lm-radio-div input[type="radio"]{
+	vertical-align: middle;
+}*/
+.lm-exhiErea {
+	/* height: 380px; */
+	margin: auto;
+	overflow: hidden;
+}
+.lm-erea {
+	height: 350px;
+	margin: auto;
+}
